@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <scanAnnotatedClasses>
+        <packageInclude>
+            pub.smartcode.simplecloudplanner
+        </packageInclude>
+    </scanAnnotatedClasses>
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>
+            pub.smartcode.simplecloudplanner.Scorer
+        </easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+    <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+    </termination>
+</solver>
