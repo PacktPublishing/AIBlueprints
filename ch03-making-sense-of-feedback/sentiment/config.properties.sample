@@ -1,0 +1,13 @@
+sqlitedb = sentiment.db
+twitter_terms = autonomous vehicle, self-driving car
+twitter_consumer_key = xyz
+twitter_consumer_secret = xyz
+twitter_token = xyz
+twitter_token_secret = xyz
+reddit_user = xyz
+reddit_password = xyz
+reddit_clientid = xyz
+reddit_clientsecret = xyz
+reddit_terms = autonomous vehicle, self-driving car
+news_api_key = xyz
+news_api_terms = autonomous vehicle, self-driving car
