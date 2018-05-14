@@ -14,6 +14,10 @@
             <name>JCenter</name>
             <url>https://jcenter.bintray.com</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <build>
@@ -91,9 +95,9 @@
             <version>6.0</version>
         </dependency>
         <dependency>
-            <groupId>com.chimbori.crux</groupId>
+            <groupId>com.github.chimbori</groupId>
             <artifactId>crux</artifactId>
-            <version>2.0.0</version>
+            <version>v2.0.0</version>
         </dependency>
     </dependencies>
 </project>
