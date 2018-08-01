@@ -7,8 +7,9 @@ from sklearn.pipeline import make_pipeline
 import faiss
 import os.path
 import pickle
+import gzip
 
-use_gpu = True
+use_gpu = False
 
 if os.path.exists('product_asin.pkl') and os.path.exists('product_text.pkl'):
     print("Loading pickled product asin's and text.")
@@ -18,10 +19,10 @@ if os.path.exists('product_asin.pkl') and os.path.exists('product_text.pkl'):
         product_text = pickle.load(f)
     print("Loaded %d products" % len(product_asin))
 else:
-    print("Processing metadata.json...")
+    print("Processing metadata-small.json.gz...")
     product_asin = []
     product_text = []
-    with open('metadata.json', encoding='utf-8') as f:
+    with gzip.open('metadata-small.json.gz', encoding='utf-8', mode='rt') as f:
         for line in f:
             try:
                 # fix improper quoting
@@ -73,7 +74,7 @@ print(index.is_trained)
 index.add(d)
 print(index.ntotal)
 
-rec_asins = ["0072259604"]
+rec_asins = ["0001048775"]
 
 for asin in rec_asins:
     idx = -1
