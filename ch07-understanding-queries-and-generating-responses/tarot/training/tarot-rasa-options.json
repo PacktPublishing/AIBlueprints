@@ -1,0 +1,10 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [
+            {
+                "name": "course",
+                "pattern": "[A-Za-z]{2,4}\\s*\\d{3}[A-Za-z]?"
+            }
+        ]
+    }
+}
