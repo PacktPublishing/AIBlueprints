@@ -1,0 +1,8 @@
+twitter_terms = autonomous vehicle, self-driving car
+twitter_consumer_key = xyz
+twitter_consumer_secret = xyz
+twitter_token = xyz
+twitter_token_secret = xyz
+yolo_cmd = run-yolo.sh
+csv_out = logos.csv
+logos = ...

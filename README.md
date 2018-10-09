@@ -21,3 +21,12 @@ Note, if [faiss](https://github.com/facebookresearch/faiss), comment-out the lin
 
 Note, `amazon_title_similarity.py` cannot be used without first downloading `metadata.json` from [this Amazon dataset](http://jmcauley.ucsd.edu/data/amazon/), but the code can easily be adapted to find similarities between other strings.
 
+## Chapter 5
+
+Requirements:
+
+- Python 3
+- [TensorFlow](https://www.tensorflow.org/), tested on 1.10
+- [darknet](https://github.com/pjreddie/darknet)
+- Java and Maven
+
