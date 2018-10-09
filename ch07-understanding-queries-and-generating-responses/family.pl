@@ -14,6 +14,6 @@ female(ann).
 mother(X) :- parent(X, _), female(X).
 father(X) :- parent(X, _), male(X).
 grandparent(X) :- parent(X, Y), parent(Y, _).
-sister(X, Y) :- parent(Z, X), parent(Z, Y), female(X), female(Y),
-                X @< Y.
+sisters(X, Y) :- parent(Z, X), parent(Z, Y), female(X), female(Y),
+                 X @< Y.
 
