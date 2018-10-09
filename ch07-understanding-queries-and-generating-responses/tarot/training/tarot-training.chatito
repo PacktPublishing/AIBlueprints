@@ -1,0 +1,113 @@
+
+%[schedule_single_semester](1000)
+    ~[what] ~[classes?] ~[can_i] ~[take] next ~[semester?]?
+    ~[what] ~[classes?] ~[must_i] ~[take] next ~[semester?]?
+    ~[what] ~[classes?] ~[can_i] ~[take] this ~[semester]?
+    ~[what] ~[classes?] ~[must_i] ~[take] this ~[semester]?
+
+%[schedule_finish_degree](500)
+    ~[what] ~[classes] ~[are] ~[left]?
+    ~[what] ~[can_i] ~[take] to finish?
+    ~[what] ~[can_i] ~[take] to graduate?
+    ~[what] ~[are] my ~[4yr]?
+    ~[what] ~[are] a ~[4yr]?
+
+%[prereqs](1000)
+    ~[what] ~[are] the ~[prereqs] ~[for] ~[course]?
+    ~[what] ~[are] ~[course] ~[prereqs]?
+    ~[what] ~[must_i] ~[take] ~[for] ~[course]?
+
+~[what]
+    what
+    which
+    show me
+    find
+
+~[classes]
+    classes
+    courses
+    sections
+
+~[can_i]
+    can i
+    should i
+    will i
+
+~[must_i]
+    must i
+    do i need to
+    should i
+
+~[take]
+    take
+    plan
+    schedule
+    enroll
+    enter
+
+~[semester]
+    semester
+    sem
+    fall
+    spring
+    year
+
+~[left]
+    left
+    remaining
+    outstanding
+    to go
+    unfinished
+
+~[for]
+    for
+    before
+    because
+    in order
+
+~[are]
+    are
+    do i have
+    will be
+    was
+    is
+
+~[prereqs]
+    prereqs
+    prerequisites
+    required courses
+    requirements
+
+~[course]
+    ~[coursemajor] ~[coursenumber]
+    ~[coursemajor]~[coursenumber]
+
+~[coursemajor]
+    csci
+    computer science
+    comp sci
+    cis
+    cinf
+    computer information systems
+    math
+    mathematics
+
+~[coursenumber]
+    111
+    141
+    201
+    221
+    301
+    321
+    331
+    401
+    431
+    498
+    499
+
+~[4yr]
+    four year plan
+    four years
+    4yr plan
+    4 yrs
+
