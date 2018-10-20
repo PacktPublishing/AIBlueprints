@@ -1,10 +1,24 @@
 # The code for this repository is under development :construction_worker:
 
-## Chapter 1
-
 ## Chapter 2
 
+Requirements:
+
+- Java JDK 8
+- [Maven](https://maven.apache.org/)
+- [Amazon AWS Command Line interface](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) (optional)
+
 ## Chapter 3
+
+Requirements for backend Twitter collector and analyzer:
+
+- Java JDK 8
+- [Maven](https://maven.apache.org/)
+
+Requirements for frontend dashboard:
+
+- Python 3
+- [Dash by Plotly](https://github.com/plotly/dash)
 
 ## Chapter 4
 
@@ -23,10 +37,60 @@ Note, `amazon_title_similarity.py` cannot be used without first downloading `met
 
 ## Chapter 5
 
-Requirements:
+Requirements for Twitter collector:
+
+- Java JDK 8
+- [Maven](https://maven.apache.org/)
+
+Requirements for image classifier:
 
 - Python 3
 - [TensorFlow](https://www.tensorflow.org/), tested on 1.10
+
+Or:
+
+- C/C++ compiler
 - [darknet](https://github.com/pjreddie/darknet)
-- Java and Maven
+
+## Chapter 6
+
+Requirements for ARIMA example:
+
+- Python 3
+- [numpy](http://www.numpy.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [statsmodels](https://www.statsmodels.org/stable/index.html)
+- [pyramid](https://github.com/tgsmith61591/pyramid)
+
+Requirements for Bayesian example:
+
+- Python 3
+- [numpy](http://www.numpy.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [pydlm](https://github.com/wwrechard/pydlm)
+
+Requirements for Clustering, Linear Regression, and Zscore examples:
+
+- Python 3
+- [numpy](http://www.numpy.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+
+Requirements for RPCA example:
+
+- Java JDK 8
+
+## Chapter 7
+
+- Java JDK 8
+- [Maven](https://maven.apache.org/)
+- Python 3
+- [Rasa NLU](https://rasa.com/docs/nlu/)
+- [Node.js 8](https://nodejs.org/en/) and [Chatito](https://github.com/rodrigopivi/Chatito) or use [Chatito online](https://rodrigopivi.github.io/Chatito/)
+- [tuProlog](http://apice.unibo.it/xwiki/bin/view/Tuprolog/WebHome) if you wish to test Prolog code before integrating with Java
 
