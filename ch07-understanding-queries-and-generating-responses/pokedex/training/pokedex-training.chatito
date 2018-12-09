@@ -1,17 +1,17 @@
 
-%[can_breed_with](5000)
+%[can_breed_with]('training':'5000')
     ~[what] pokemon can breed with @[pokemon]?
     ~[what] pokemon breed with @[pokemon]?
     ~[what] can @[pokemon] breed with?
     ~[what] can breed with @[pokemon]?
 
-%[can_breed](5000)
+%[can_breed]('training':'5000')
     can @[pokemon] and @[pokemon2] breed?
     can @[pokemon] breed with @[pokemon2]?
     are @[pokemon] and @[pokemon2] able to breed?
     are @[pokemon] and @[pokemon2] compatible?
 
-%[child_pok](5000)
+%[child_pok]('training':'5000')
     what is the child of @[pokemon] and @[pokemon2]?
     what pokemon results from breeding @[pokemon] and @[pokemon2]?
     if @[pokemon] and @[pokemon2] breed, what do we get?

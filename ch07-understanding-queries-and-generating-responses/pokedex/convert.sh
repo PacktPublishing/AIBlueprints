@@ -1,4 +1,4 @@
 #!/bin/sh
 
-npx chatito training/pokedex-training.chatito --format=rasa
+npx chatito training/pokedex-training.chatito --format=rasa --outputPath=training
 
