@@ -1,18 +1,18 @@
 
-%[schedule_single_semester](1000)
+%[schedule_single_semester]('training':'1000')
     ~[what] ~[classes?] ~[can_i] ~[take] next ~[semester?]?
     ~[what] ~[classes?] ~[must_i] ~[take] next ~[semester?]?
     ~[what] ~[classes?] ~[can_i] ~[take] this ~[semester]?
     ~[what] ~[classes?] ~[must_i] ~[take] this ~[semester]?
 
-%[schedule_finish_degree](500)
+%[schedule_finish_degree]('training':'500')
     ~[what] ~[classes] ~[are] ~[left]?
     ~[what] ~[can_i] ~[take] to finish?
     ~[what] ~[can_i] ~[take] to graduate?
     ~[what] ~[are] my ~[4yr]?
     ~[what] ~[are] a ~[4yr]?
 
-%[prereqs](1000)
+%[prereqs]('training':'1000')
     ~[what] ~[are] the ~[prereqs] ~[for] ~[course]?
     ~[what] ~[are] ~[course] ~[prereqs]?
     ~[what] ~[must_i] ~[take] ~[for] ~[course]?

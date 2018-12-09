@@ -114,7 +114,8 @@ public class PokedexMain {
                     // Here we prevent "Prolog-injection" (like SQL-injection) by ensuring
                     // there are no symbols in the entity values
                     String entity = entities_json.getJSONObject(i).getString("entity");
-                    String value = entities_json.getJSONObject(i).getString("value");
+                    //String value = entities_json.getJSONObject(i).getString("value");
+                    String value = resp.getString("text").substring(entities_json.getJSONObject(i).getInt("start"), entities_json.getJSONObject(i).getInt("end"));
                     if(value.matches("^[A-Za-z]+$")) {
                         entities.put(entity, value);
                     }
