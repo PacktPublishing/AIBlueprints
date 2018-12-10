@@ -168,7 +168,7 @@ public class TarotChatMain {
                 String course = null; // some intents extract a course from the input text
 
                 HttpRequestWithBody tarotReq = 
-                    Unirest.post("http://localhost:10333/tarot")
+                    Unirest.post("http://tarotdemo.artifice.cc:10333/tarot")
                            .header("content-type", "application/json; charset=utf-8")
                            .header("accept", "application/json");
 
@@ -178,6 +178,10 @@ public class TarotChatMain {
                     if(intent.equals("schedule_finish_degree")) {
                         reqBodyJSONWriter.value("finishDegreeFromStudentId");
                         reqBodyJSONWriter.value(studentid);
+                        reqBodyJSONWriter.value("Student");
+                        reqBodyJSONWriter.value("ClassLevel");
+                        reqBodyJSONWriter.value("Advisors");
+                        reqBodyJSONWriter.value("Major");
                         reqBodyJSONWriter.value("[csci]");
                         reqBodyJSONWriter.value("4");
                         reqBodyJSONWriter.value("2018");
@@ -196,6 +200,10 @@ public class TarotChatMain {
                     else if(intent.equals("schedule_single_semester")) {
                         reqBodyJSONWriter.value("finishSingleSemesterFromStudentId");
                         reqBodyJSONWriter.value(studentid);
+                        reqBodyJSONWriter.value("Student");
+                        reqBodyJSONWriter.value("ClassLevel");
+                        reqBodyJSONWriter.value("Advisors");
+                        reqBodyJSONWriter.value("Major");
                         reqBodyJSONWriter.value("[csci]");
                         reqBodyJSONWriter.value("8");
                         reqBodyJSONWriter.value("2018");
