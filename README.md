@@ -1,5 +1,3 @@
-# The code for this repository is under development :construction_worker:
-
 ## Chapter 2
 
 Requirements:
