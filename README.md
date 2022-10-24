@@ -92,3 +92,7 @@ Requirements for RPCA example:
 - [Node.js 8](https://nodejs.org/en/) and [Chatito](https://github.com/rodrigopivi/Chatito) or use [Chatito online](https://rodrigopivi.github.io/Chatito/)
 - [tuProlog](http://apice.unibo.it/xwiki/bin/view/Tuprolog/WebHome) if you wish to test Prolog code before integrating with Java
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788992879">https://packt.link/free-ebook/9781788992879 </a> </p>
